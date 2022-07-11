@@ -1,7 +1,8 @@
 import Button from "../Button/Button";
 import { useState } from "react";
+import Link from "next/link";
 import style from "../../styles/Navbar.module.css";
-
+import Image from "next/image";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
 
@@ -18,27 +19,33 @@ const Navbar = () => {
         style={{ left: open ? "0px" : "-50vw" }}
       >
         <li className={style.menuItem}>
-          <a href="/" className={style.home}>
-            Home
-          </a>
+          <Link href="/">
+            <a className={style.home}>Home</a>
+          </Link>
         </li>
         <li className={style.menuItem}>
-          <a href="/" className={style.explore}>
-            Explore
-          </a>
+          <Link href="#">
+            <a className={style.explore}>Explore</a>
+          </Link>
         </li>
       </ul>
-      <img src="LOGO.png" className={style.logo}></img>
+      <Image
+        src="/LOGO.png"
+        className={style.logo}
+        alt="Logo"
+        width="130px"
+        height="28px"
+      />
       <ul className={style.list}>
         <li className={style.listItem}>
-          <a href="/" className={style.home}>
-            Home
-          </a>
+          <Link href="/">
+            <a className={style.home}>Home</a>
+          </Link>
         </li>
         <li className={style.listItem}>
-          <a href="/" className={style.explore}>
-            Explore
-          </a>
+          <Link href="/">
+            <a className={style.explore}>Explore</a>
+          </Link>
         </li>
       </ul>
       <Button button_text="Get Started" />
