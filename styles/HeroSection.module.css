@@ -1,4 +1,7 @@
 .section_container {
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+  min-height: 60vh;
   background: linear-gradient(
       0deg,
       rgba(255, 255, 255, 0.2),
