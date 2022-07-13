@@ -1,11 +1,11 @@
 import Navbar from "../Components/Navbar/Navbar";
 import Footer from "../Components/Footer/Footer";
 
-const Layout = ({ childern }) => {
+const Layout = ({ children }) => {
   return (
     <div>
       <Navbar />
-      {childern}
+      {children}
       {/* <Footer /> */}
     </div>
   );
