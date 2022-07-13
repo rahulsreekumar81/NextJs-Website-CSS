@@ -1,0 +1,23 @@
+.section_container {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.2)
+    ),
+    radial-gradient(
+      50% 50% at 50% 50%,
+      rgba(219, 219, 219, 0.8) 0%,
+      rgba(219, 219, 219, 0) 100%
+    ),
+    radial-gradient(
+      77.47% 100% at 85.83% 100%,
+      #fdab01 0%,
+      rgba(253, 171, 1, 0) 100%
+    ),
+    radial-gradient(
+      89.64% 57.39% at 10.36% 0%,
+      #dce8ee 0%,
+      rgba(220, 232, 238, 0) 100%
+    ),
+    linear-gradient(0deg, #c8c8c8, #c8c8c8), #ffffff;
+}
