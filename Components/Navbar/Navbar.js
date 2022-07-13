@@ -36,19 +36,21 @@ const Navbar = () => {
         width="130px"
         height="28px"
       />
-      <ul className={style.list}>
-        <li className={style.listItem}>
-          <Link href="/">
-            <a className={style.home}>Home</a>
-          </Link>
-        </li>
-        <li className={style.listItem}>
-          <Link href="/">
-            <a className={style.explore}>Explore</a>
-          </Link>
-        </li>
-      </ul>
-      <Button button_text="Get Started" />
+      <div className={style.list_container}>
+        <ul className={style.list}>
+          <li className={style.listItem}>
+            <Link href="/">
+              <a className={style.home}>Home</a>
+            </Link>
+          </li>
+          <li className={style.listItem}>
+            <Link href="/">
+              <a className={style.explore}>Explore</a>
+            </Link>
+          </li>
+        </ul>
+        <Button button_text="Get Started" />
+      </div>
     </div>
   );
 };

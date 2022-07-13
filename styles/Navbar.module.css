@@ -6,7 +6,11 @@
   justify-content: space-between;
   font-size: 18px;
   padding: 0px 30px;
-  position: relative;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
   overflow: hidden;
 }
 .logo {
@@ -17,6 +21,12 @@
 
 /* .list {
 } */
+.list_container {
+  display: flex;
+  /* align-items: flex-end; */
+  justify-content: flex-end;
+  align-items: center;
+}
 .listItem {
   display: inline;
   margin-right: 56px;
