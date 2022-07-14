@@ -1,7 +1,15 @@
 .section_container {
+  background-image: url("../public/Cover.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   padding-top: 5rem;
   padding-bottom: 2rem;
   min-height: 60vh;
+  font-size: var(--fs-secondary-heading);
   background: linear-gradient(
       0deg,
       rgba(255, 255, 255, 0.2),
@@ -23,4 +31,10 @@
       rgba(220, 232, 238, 0) 100%
     ),
     linear-gradient(0deg, #c8c8c8, #c8c8c8), #ffffff;
+}
+.buttonPrimary {
+  margin-top: 405px;
+}
+.fullStop {
+  color: var(--color-primary);
 }
