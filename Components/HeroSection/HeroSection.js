@@ -4,8 +4,11 @@ const HeroSection = () => {
   return (
     <section className={styles.section_container}>
       <div>
-        <h1>Your strategy is only as good as you execute it.</h1>
-        <Button button_text="Get Started" />
+        <h1>
+          Your strategy is only as good as
+          <br /> you execute it<span className={styles.fullStop}>.</span>
+        </h1>
+        <Button button_text="Get Started" className={styles.buttonPrimary} />
       </div>
     </section>
   );
