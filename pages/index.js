@@ -1,4 +1,5 @@
 import Head from "next/head";
+import CompanyProfile from "../Components/CompanyProfile/CompanyProfile";
 import HeroSection from "../Components/HeroSection/HeroSection";
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <HeroSection />
+      <CompanyProfile />
     </div>
   );
 }
