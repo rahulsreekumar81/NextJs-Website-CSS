@@ -11,6 +11,7 @@ const CompanyProfile = () => {
       </div>
       <div className={styles.contentContainer}>
         <div className={styles.imageContainer}>
+          {/* 🚧 Resize the image and the nearby paragraph*/}
           <Image
             src="/companyimage.png"
             alt="companyPhoto"
@@ -19,6 +20,7 @@ const CompanyProfile = () => {
           />
         </div>
         <div className={styles.content}>
+          {/* ⏩  Todo handle background ellipse shape */}
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
