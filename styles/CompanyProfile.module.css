@@ -34,6 +34,8 @@
 }
 
 .content {
+  font-weight: var(--fw-regular);
+  font-size: var(--fs-body);
   width: 38.1875rem;
   height: 7.875rem;
 }
