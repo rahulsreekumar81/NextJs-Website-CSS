@@ -1,7 +1,27 @@
 :root {
   /* Colors */
   --color-primary: #fdab01;
-
+  --background-color-linear: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.2)
+    ),
+    radial-gradient(
+      50% 50% at 50% 50%,
+      rgba(219, 219, 219, 0.8) 0%,
+      rgba(219, 219, 219, 0) 100%
+    ),
+    radial-gradient(
+      77.47% 100% at 85.83% 100%,
+      #fdab01 0%,
+      rgba(253, 171, 1, 0) 100%
+    ),
+    radial-gradient(
+      89.64% 57.39% at 10.36% 0%,
+      #dce8ee 0%,
+      rgba(220, 232, 238, 0) 100%
+    ),
+    linear-gradient(0deg, #c8c8c8, #c8c8c8), #ffffff;
   /* Font Family */
 
   --ff-primary: "Roboto", "sans-serif";
@@ -10,7 +30,7 @@
 
   /* Font weights */
 
-  --fw-reuglar: 400;
+  --fw-regular: 400;
   --fw-medium: 500;
   --fw-bold: 700;
 
@@ -27,7 +47,12 @@
   --fs-body: var(--fs-400);
   --fs-primary-heading: var(--fs-800);
   --fs-secondary-heading: var(--fs-700);
+  --fs-tertiary-heading:var(--fs-500)
   --fs-button: var(--fs-300);
+
+  /* Font Color */
+  --fc-primary-color: #f79901;
+  --fc-secondary-color: #252b42;
 }
 
 html,
