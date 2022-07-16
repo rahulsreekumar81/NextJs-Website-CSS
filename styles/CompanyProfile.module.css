@@ -10,6 +10,14 @@
   flex-direction: column;
   align-items: center;
 }
+
+.contentContainer {
+  margin-top: 4.75rem;
+  display: flex;
+  align-items: center;
+  /* 🔴 Debug in inspect element for correct measurements */
+  justify-content: space-evenly;
+}
 .primaryHeading {
   font-weight: var(--fw-bold);
   color: var(--f-secondary-color);
