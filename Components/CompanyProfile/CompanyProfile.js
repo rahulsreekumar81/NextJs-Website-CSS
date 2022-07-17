@@ -12,11 +12,17 @@ const CompanyProfile = () => {
       <div className={styles.contentContainer}>
         <div className={styles.imageContainer}>
           {/* 🚧 Resize the image and the nearby paragraph*/}
-          <Image
+          {/* <Image
             src="/companyimage.png"
-            alt="companyPhoto"
-            height="100%"
-            width="100%"
+            alt="company-image"
+            height="327em"
+            width="566em"
+          /> */}
+          {/* 🚧 */}
+          <img
+            src="\companyimage.png"
+            alt="company-image"
+            className={styles.image}
           />
         </div>
         <div className={styles.content}>

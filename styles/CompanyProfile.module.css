@@ -34,8 +34,17 @@
 }
 
 .content {
+  line-height: 1.5rem;
   font-weight: var(--fw-regular);
   font-size: var(--fs-body);
   width: 38.1875rem;
   height: 7.875rem;
+}
+.imageContainer {
+  border-radius: 24px;
+}
+.image {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
