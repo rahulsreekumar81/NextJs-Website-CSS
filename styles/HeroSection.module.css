@@ -1,26 +1,23 @@
 .section_container {
+  background-image: url("../public/Cover.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   padding-top: 5rem;
   padding-bottom: 2rem;
   min-height: 60vh;
-  background: linear-gradient(
-      0deg,
-      rgba(255, 255, 255, 0.2),
-      rgba(255, 255, 255, 0.2)
-    ),
-    radial-gradient(
-      50% 50% at 50% 50%,
-      rgba(219, 219, 219, 0.8) 0%,
-      rgba(219, 219, 219, 0) 100%
-    ),
-    radial-gradient(
-      77.47% 100% at 85.83% 100%,
-      #fdab01 0%,
-      rgba(253, 171, 1, 0) 100%
-    ),
-    radial-gradient(
-      89.64% 57.39% at 10.36% 0%,
-      #dce8ee 0%,
-      rgba(220, 232, 238, 0) 100%
-    ),
-    linear-gradient(0deg, #c8c8c8, #c8c8c8), #ffffff;
+  font-size: var(--fs-secondary-heading);
+  background: var(--background-color-linear);
+}
+/* .imageContainer {
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+} */
+
+.fullStop {
+  color: var(--color-primary);
 }
