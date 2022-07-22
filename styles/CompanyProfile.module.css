@@ -17,6 +17,7 @@
   align-items: center;
   /* 🔴 Debug in inspect element for correct measurements */
   justify-content: space-evenly;
+  /* margin-left: 2.25rem; */
 }
 .primaryHeading {
   font-weight: var(--fw-bold);
