@@ -41,6 +41,11 @@
   border-radius: 12px;
   transform: rotate(-3deg);
 }
+
+.evenColumns {
+  display: grid;
+  gap: 1rem;
+}
 @media (max-width: 480px) {
   .cards {
     flex-direction: column;
