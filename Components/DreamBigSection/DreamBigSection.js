@@ -13,7 +13,7 @@ const DreamBig = () => {
         <Card
           image={"/icon1.png"}
           head={"Free shipping"}
-          content={"Enjoy Order in a hand using the fresness of groceries"}
+          content={"Enjoy Order in a hand using the freshness of groceries"}
         />
         <div className={styles.shadow}></div>
         <Card
