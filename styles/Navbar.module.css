@@ -2,6 +2,7 @@
   height: 50px;
   background-color: transparent;
   display: flex;
+  z-index: 9999;
   align-items: center;
   justify-content: space-between;
   font-size: 18px;
@@ -62,7 +63,6 @@
   height: calc(100vh - 50px);
   background-color: transparent;
   top: 50px;
-
   z-index: 9999;
   margin: 0;
   padding: 0;
