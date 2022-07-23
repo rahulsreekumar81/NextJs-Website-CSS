@@ -35,7 +35,8 @@
 }
 
 .content {
-  line-height: 1.5rem;
+  line-height: 171%;
+  /* line-height: 24px; */
   font-weight: var(--fw-regular);
   font-size: var(--fs-body);
   width: 38.1875rem;
