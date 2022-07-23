@@ -3,6 +3,7 @@
   background-color: transparent;
   display: flex;
   align-items: center;
+  z-index: 9999;
   justify-content: space-between;
   font-size: 18px;
   padding: 0px 30px;
@@ -19,8 +20,6 @@
   padding-left: 0;
 }
 
-/* .list {
-} */
 .list_container {
   display: flex;
   /* align-items: flex-end; */
