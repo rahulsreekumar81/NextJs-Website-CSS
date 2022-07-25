@@ -11,21 +11,21 @@ const AmazingPartnersSection = () => {
       <div className={styles.iconContainer}>
         <div className={styles.iconWrapper}>
           <img src="/behance.png" alt="logo" className={styles.logo} />
+          <img src="/googlelogo.png" alt="logo" className={styles.logo} />
+          <img src="/behance.svg" alt="logo" className={styles.logo} />
+          <img src="/dribblelogo.png" alt="logo" className={styles.logo} />
+        </div>
+        <div className={styles.iconWrapper}>
+          <img src="/uplabslogo.png" alt="logo" className={styles.logo} />
+          <img src="/99designslogo.png" alt="logo" className={styles.logo} />
           <img src="/behance.png" alt="logo" className={styles.logo} />
-          <img src="/behance.png" alt="logo" className={styles.logo} />
-          <img src="/behance.png" alt="logo" className={styles.logo} />
+          <img src="/googlelogo.png" alt="logo" className={styles.logo} />
         </div>
         <div className={styles.iconWrapper}>
           <img src="/behance.png" alt="logo" className={styles.logo} />
-          <img src="/behance.png" alt="logo" className={styles.logo} />
-          <img src="/behance.png" alt="logo" className={styles.logo} />
-          <img src="/behance.png" alt="logo" className={styles.logo} />
-        </div>
-        <div className={styles.iconWrapper}>
-          <img src="/behance.png" alt="logo" className={styles.logo} />
-          <img src="/behance.png" alt="logo" className={styles.logo} />
-          <img src="/behance.png" alt="logo" className={styles.logo} />
-          <img src="/behance.png" alt="logo" className={styles.logo} />
+          <img src="/uplabslogo.png" alt="logo" className={styles.logo} />
+          <img src="/googlelogo.png" alt="logo" className={styles.logo} />
+          <img src="/dribblelogo.png" alt="logo" className={styles.logo} />
         </div>
       </div>
     </section>
