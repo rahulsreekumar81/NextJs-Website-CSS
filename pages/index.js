@@ -1,4 +1,5 @@
 import Head from "next/head";
+import AmazingPartnersSection from "../Components/AmazingPartnersSection/AmazingPartnersSections";
 import CompanyProfile from "../Components/CompanyProfile/CompanyProfile";
 import DreamBigSection from "../Components/DreamBigSection/DreamBigSection";
 import HeroSection from "../Components/HeroSection/HeroSection";
@@ -14,6 +15,7 @@ export default function Home() {
       <HeroSection />
       <CompanyProfile />
       <DreamBigSection />
+      <AmazingPartnersSection />
     </div>
   );
 }
