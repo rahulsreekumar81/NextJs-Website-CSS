@@ -5,6 +5,7 @@
   background: var(--background-color-linear);
   position: relative;
   margin-top: 784px;
+  padding: 0 1rem;
 }
 .headingContainer {
   display: flex;
