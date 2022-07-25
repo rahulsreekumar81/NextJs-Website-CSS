@@ -41,7 +41,8 @@
   align-items: center;
   gap: 2rem;
   padding: 0 0.4rem;
-  margin-top: 4.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2.6rem;
   min-height: 18rem;
   max-width: 59rem;
 }
@@ -59,6 +60,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin-bottom: 3.5rem;
   }
   .iconWrapper {
     flex-direction: column;
