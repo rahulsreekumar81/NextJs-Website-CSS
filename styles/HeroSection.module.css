@@ -6,8 +6,9 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding-top: 5rem;
-  padding-bottom: 2rem;
+  /* padding-top: 5rem; */
+  /* padding-bottom: 2rem; */
+  padding: 0 1rem;
   min-height: 60vh;
   font-size: var(--fs-secondary-heading);
   background: var(--background-color-linear);
