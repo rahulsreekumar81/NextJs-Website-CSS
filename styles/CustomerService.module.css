@@ -1,0 +1,35 @@
+/* .sectionContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
+  padding-block: 5rem;
+} */
+.primaryHeading {
+}
+.evenColumns {
+  display: grid;
+  gap: 1rem;
+}
+.listItem {
+  font-size: var(--fs-600);
+  font-weight: var(--fw-bold);
+}
+.paddingBlock900 {
+  padding-block: 5rem;
+}
+/* .mapImage {
+  width: 100%;
+  height: auto;
+  max-width: auto;
+  min-height: 26rem;
+  min-height: auto;
+  max-width: 35rem;
+} */
+@media (min-width: 50em) {
+  .evenColumns {
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+  }
+}
