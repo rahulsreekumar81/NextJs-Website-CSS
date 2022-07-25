@@ -1,8 +1,6 @@
 .section_container {
-  /* display: flex; */
-  justify-content: center;
-  align-items: center;
-  /* min-height: 30vh; */
+  /* justify-content: center; */
+  /* align-items: center; */
   font-size: var(--fs-secondary-heading);
   background: var(--background-color-linear);
   position: relative;
@@ -41,7 +39,7 @@
   border-radius: 12px;
   transform: rotate(-3deg);
 }
-@media (max-width: 480px) {
+@media (max-width: 878px) {
   .cards {
     flex-direction: column;
     align-items: center;
