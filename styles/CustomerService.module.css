@@ -1,80 +1,59 @@
 .sectionContainer {
+  padding: 0 1rem;
+}
+
+.flexContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1rem;
+}
+.flexChild1 {
   display: flex;
   flex-direction: column;
-  padding: 0 1rem;
-  /* justify-content: first baseline; */
-  justify-content: center;
-  align-items: baseline;
+  gap: 1.5rem;
+}
+.flexChild2 {
+  display: flex;
+  align-items: flex-end;
 }
 .headingContainer {
+  padding: 0 0.875rem;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
   gap: 0.875rem;
 }
 .primaryHeading {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-
-/* .sectionContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 0 1rem;
-  padding-block: 5rem;
-} */
-/* .primaryHeading {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
+  font-weight: var(--fw-bold);
   font-size: var(--fs-primary-heading);
-  font-weight: var(--fw-bold);
-  line-height: 24px;
   color: var(--fc-secondary-color);
-} */
-/* .secondaryHeading {
-  font-size: var(--fs-secondary-heading); 
-  font-size: 1.25rem;
+  line-height: 24px;
+}
+.secondaryHeading {
   font-weight: var(--fw-medium);
+  font-size: var(--fs-secondary-heading);
   color: var(--fc-primary-color);
   line-height: 24px;
 }
-.evenColumns {
-  display: grid;
-  gap: 1rem;
-}
-.listItem {
-  font-size: var(--fs-600);
-  font-weight: var(--fw-bold);
-}
-.paddingBlock900 {
-  padding-block: 5rem;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
+.image {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
-.fullStop {
-  display: none;
-  color: var(--fc-primary-color);
-} */
-/* @media (min-width: 50em) {
-  .evenColumns {
-    grid-auto-flow: column;
-    grid-auto-columns: 1fr;
+@media (max-width: 50em) {
+  .flexContainer {
+    flex-direction: column-reverse;
   }
-} */
-/* .mapImage {
-  width: 100%;
-  height: auto;
-  max-width: auto;
-  min-height: 26rem;
-  min-height: auto;
-  max-width: 35rem;
-} */
+  .headingContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 4.5rem;
+  }
+  .image {
+    margin-top: -32px;
+  }
+}
