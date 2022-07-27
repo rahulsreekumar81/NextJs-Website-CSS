@@ -15,6 +15,9 @@
 }
 .flexChild2 {
   display: flex;
+  flex: none;
+  justify-content: center;
+  margin-top: 3rem;
   align-items: flex-end;
 }
 .headingContainer {
@@ -25,19 +28,19 @@
 }
 .primaryHeading {
   font-weight: var(--fw-bold);
-  font-size: var(--fs-primary-heading);
+  font-size: var(--fs-secondary-heading);
   color: var(--fc-secondary-color);
   line-height: 24px;
 }
 .secondaryHeading {
   font-weight: var(--fw-medium);
-  font-size: var(--fs-secondary-heading);
+  font-size: var(--fs-600);
   color: var(--fc-primary-color);
   line-height: 24px;
 }
 .image {
-  display: block;
-  max-width: 100%;
+  width: 100%;
+  max-width: 400px;
   height: auto;
 }
 
@@ -50,10 +53,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
+    gap: 1.3rem;
     margin-top: 4.5rem;
   }
   .image {
-    margin-top: -32px;
+    margin-top: -4.5rem;
   }
 }
