@@ -18,7 +18,7 @@
 }
 .primaryHeading {
   font-weight: var(--fw-bold);
-  color: var(--f-secondary-color);
+  color: var(--fs-secondary-color);
   font-size: var(--fs-secondary-heading);
 }
 .secondaryHeading {
