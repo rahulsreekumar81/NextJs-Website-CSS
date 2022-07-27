@@ -28,7 +28,7 @@
 .secondaryHeading {
   line-height: 30px;
   font-size: var(--fs-600);
-  font-weight: var(--fw-500);
+  font-weight: var(--fw-medium);
   color: var(--fc-primary-color);
 }
 .fullStop {
