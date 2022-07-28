@@ -7,8 +7,8 @@
 .flexContainer {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  gap: 1rem;
+  justify-content: center;
+  gap: 4rem;
 }
 .flexChild1 {
   display: flex;
@@ -21,7 +21,6 @@
   flex: none;
   justify-content: center;
   margin-top: 3rem;
-  align-items: flex-end;
 }
 .headingContainer {
   padding: 0 0.875rem;
@@ -43,7 +42,7 @@
 }
 .image {
   width: 100%;
-  max-width: 400px;
+  max-width: 500px;
   height: auto;
   margin-top: 6.7rem;
 }
@@ -75,4 +74,8 @@
   .image {
     margin-top: -4.5rem;
   }
+}
+
+.fullStop {
+  color: var(--fc-primary-color);
 }
