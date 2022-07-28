@@ -72,6 +72,13 @@ a {
   margin: 0;
   box-sizing: border-box;
 }
+ul{
+  list-style: none;
+}
+ img{
+  display: block;
+  max-width: 100%;
+} 
 @media (min-width: 50em) {
   :root {
     --fs-body: var(--fs-500);
