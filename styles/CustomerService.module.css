@@ -1,24 +1,26 @@
 .sectionContainer {
   padding: 0 1rem;
+  max-width: 1920px;
+  min-height: 628px;
 }
 
 .flexContainer {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  gap: 1rem;
+  justify-content: center;
+  gap: 4rem;
 }
 .flexChild1 {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  margin-top: 11rem;
 }
 .flexChild2 {
   display: flex;
   flex: none;
   justify-content: center;
   margin-top: 3rem;
-  align-items: flex-end;
 }
 .headingContainer {
   padding: 0 0.875rem;
@@ -40,8 +42,9 @@
 }
 .image {
   width: 100%;
-  max-width: 400px;
+  max-width: 500px;
   height: auto;
+  margin-top: 6.7rem;
 }
 .listContainer {
   display: flex;
@@ -65,7 +68,14 @@
     gap: 1.3rem;
     margin-top: 4.5rem;
   }
+  .flexChild1 {
+    margin-top: -2rem;
+  }
   .image {
     margin-top: -4.5rem;
   }
+}
+
+.fullStop {
+  color: var(--fc-primary-color);
 }

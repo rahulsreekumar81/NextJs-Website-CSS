@@ -3,6 +3,7 @@ import AmazingPartnersSection from "../Components/AmazingPartnersSection/Amazing
 import CompanyProfile from "../Components/CompanyProfile/CompanyProfile";
 import CustomerServiceSection from "../Components/CustomerServiceSection/CustomerServiceSection";
 import DreamBigSection from "../Components/DreamBigSection/DreamBigSection";
+import GetInTouchSection from "../Components/GetInTouchSection/GetInTouchSection";
 import HeroSection from "../Components/HeroSection/HeroSection";
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <DreamBigSection />
       <AmazingPartnersSection />
       <CustomerServiceSection />
+      <GetInTouchSection />
     </div>
   );
 }

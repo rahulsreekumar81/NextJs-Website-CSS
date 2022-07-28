@@ -5,7 +5,9 @@ const CustomerServiceSection = () => {
       <div className={styles.flexContainer}>
         <div className={styles.flexChild1}>
           <div className={styles.headingContainer}>
-            <h2 className={styles.primaryHeading}>Customer Service</h2>
+            <h2 className={styles.primaryHeading}>
+              Customer Service<span className={styles.fullStop}>.</span>
+            </h2>
             <h4 className={styles.secondaryHeading}>Short Introduction</h4>
           </div>
           <div className={styles.listContainer}>
