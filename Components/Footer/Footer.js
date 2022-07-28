@@ -9,39 +9,42 @@ const Footer = () => {
           <h4>Rockefeller PlazaNew York, NY 10112</h4>
         </div>
         <div className={styles.footerMainItem}>
-          <h2 className={styles.listTitle}>About</h2>
+          <h2 className={styles.listTitle}>Learn More</h2>
           <ul className={styles.footerList}>
             <li>
-              <a href="#">Services</a>
+              <a href="#">How it work</a>
             </li>
             <li>
-              <a href="#">Portfolio</a>
-            </li>
-            <li>
-              <a href="#">Pricing</a>
-            </li>
-            <li>
-              <a href="#">Customers</a>
+              <a href="#">Who we are</a>
             </li>
             <li>
               <a href="#">Careers</a>
             </li>
+            <li>
+              <a href="#">Blogs</a>
+            </li>
+            <li>
+              <a href="#">FAQs</a>
+            </li>
           </ul>
         </div>
         <div className={styles.footerMainItem}>
-          <h2 className={styles.listTitle}>Resources</h2>
+          <h2 className={styles.listTitle}>Social</h2>
           <ul className={styles.footerList}>
             <li>
-              <a href="#">Docs</a>
+              <a href="#">Facebook</a>
             </li>
             <li>
-              <a href="#">Blog</a>
+              <a href="#">Instagram</a>
             </li>
             <li>
-              <a href="#">eBooks</a>
+              <a href="#">Twitter</a>
             </li>
             <li>
-              <a href="#">Webinars</a>
+              <a href="#">Pinterest</a>
+            </li>
+            <li>
+              <a href="#">LinkedIn</a>
             </li>
           </ul>
         </div>
