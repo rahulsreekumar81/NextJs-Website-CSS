@@ -1,5 +1,7 @@
 .sectionContainer {
   padding: 0 1rem;
+  max-width: 1920px;
+  min-height: 628px;
 }
 
 .flexContainer {
