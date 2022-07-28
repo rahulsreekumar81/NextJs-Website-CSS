@@ -1,6 +1,6 @@
 .sectionContainer {
-  min-height: 50px;
-  width: 100%;
+  max-width: 1920px;
+  min-height: 628px;
   padding: 0 1.5rem;
   display: flex;
   flex-direction: column;
