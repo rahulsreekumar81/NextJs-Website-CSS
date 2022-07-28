@@ -46,4 +46,8 @@
     align-items: center;
     gap: 0.875rem;
   }
+  .shadow {
+    width: 286px;
+    height: 306px;
+  }
 }
