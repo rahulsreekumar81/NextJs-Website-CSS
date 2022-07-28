@@ -9,21 +9,26 @@ const CustomerServiceSection = () => {
             <h4 className={styles.secondaryHeading}>Short Introduction</h4>
           </div>
           <div className={styles.listContainer}>
-            <ul className={styles.list}>
-              <li className={styles.listItems}>
-                <h5 className={styles.listItems}>+1-234-567-890</h5>
-              </li>
-              <li className={styles.listItems}>
-                <h5 className={styles.listItems}>
-                  Financial Service@gmail.com
-                </h5>
-              </li>
-              <li className={styles.listItems}>
-                <h5 className={styles.listItems}>
-                  Rockefeller PlazaNew York, NY 10112
-                </h5>
-              </li>
-            </ul>
+            <div className={styles.communicationContainer}>
+              <img src="/call-icon.png" alt="logo" className={styles.logo} />
+              <h5 className={styles.contactInfo}>+1-234-567-890</h5>
+            </div>
+            <div className={styles.communicationContainer}>
+              <img src="/message-icon.png" alt="logo" className={styles.logo} />
+              <h5 className={styles.contactInfo}>
+                Financial Service@gmail.com
+              </h5>
+            </div>
+            <div className={styles.communicationContainer}>
+              <img
+                src="/location-icon.png"
+                alt="logo"
+                className={styles.logo}
+              />
+              <h5 className={styles.contactInfo}>
+                Rockefeller PlazaNew York, NY 10112
+              </h5>
+            </div>
           </div>
         </div>
         <div className={styles.flexChild2}>
