@@ -43,7 +43,16 @@
   max-width: 400px;
   height: auto;
 }
-
+.listContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem;
+}
+.communicationContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.875rem;
+}
 @media (max-width: 50em) {
   .flexContainer {
     flex-direction: column-reverse;
