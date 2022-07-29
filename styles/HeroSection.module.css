@@ -1,24 +1,28 @@
-.section_container {
-  background-image: url("../public/Cover.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+.sectionContainer {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* padding-top: 5rem; */
-  /* padding-bottom: 2rem; */
   padding: 0 1rem;
-  min-height: 60vh;
+  max-width: 1920px;
+  min-height: 628px;
   font-size: var(--fs-secondary-heading);
   background: var(--background-color-linear);
 }
-/* .imageContainer {
-  height: 100%;
-  width: 100%;
-  z-index: -1;
-} */
-
+.container {
+  display: flex;
+  padding: 0 1rem;
+  flex-direction: column;
+  gap: 2.4rem;
+}
 .fullStop {
   color: var(--color-primary);
+}
+
+@media (max-width: 50em) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
