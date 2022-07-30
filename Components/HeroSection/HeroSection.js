@@ -1,10 +1,9 @@
 import Button from "../Button/Button";
-// import Image from "next/image";
 import styles from "../../styles/HeroSection.module.css";
 const HeroSection = () => {
   return (
-    <section className={styles.section_container}>
-      <div>
+    <section className={styles.sectionContainer}>
+      <div className={styles.container}>
         <h1>
           Your strategy is only as good as
           <br /> you execute it<span className={styles.fullStop}>.</span>

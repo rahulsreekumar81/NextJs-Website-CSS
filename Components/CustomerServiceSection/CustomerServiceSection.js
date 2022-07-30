@@ -11,17 +11,17 @@ const CustomerServiceSection = () => {
             <h4 className={styles.secondaryHeading}>Short Introduction</h4>
           </div>
           <div className={styles.listContainer}>
-            <div className={styles.communicationContainer}>
+            <div className={styles.listItem}>
               <img src="/call-icon.png" alt="logo" className={styles.logo} />
               <h5 className={styles.contactInfo}>+1-234-567-890</h5>
             </div>
-            <div className={styles.communicationContainer}>
+            <div className={styles.listItem}>
               <img src="/message-icon.png" alt="logo" className={styles.logo} />
               <h5 className={styles.contactInfo}>
                 Financial Service@gmail.com
               </h5>
             </div>
-            <div className={styles.communicationContainer}>
+            <div className={styles.listItem}>
               <img
                 src="/location-icon.png"
                 alt="logo"

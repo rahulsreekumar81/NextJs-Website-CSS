@@ -26,7 +26,7 @@
   padding: 0 0.875rem;
   display: flex;
   flex-direction: column;
-  gap: 0.875rem;
+  gap: 1.875rem;
 }
 .primaryHeading {
   font-weight: var(--fw-bold);
@@ -51,10 +51,10 @@
   flex-direction: column;
   gap: 0.875rem;
 }
-.communicationContainer {
+.listItem {
   display: flex;
-  align-items: center;
   gap: 0.875rem;
+  align-items: center;
 }
 @media (max-width: 50em) {
   .flexContainer {
