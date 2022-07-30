@@ -28,6 +28,9 @@
   gap: 1rem;
   margin-top: 1.56rem;
 }
+.logo {
+  aspect-ratio: 16/9;
+}
 .footerList {
   color: #ffff;
   font-size: var(--fs-400);
@@ -35,7 +38,7 @@
   line-height: 24px;
   display: flex;
   flex-direction: column;
-  gap: 0.775rem;
+  gap: 0.975rem;
 }
 .listTitle {
   color: #ffff;
@@ -48,4 +51,9 @@
   font-size: var(--fs-400);
   font-weight: var(--fw-regular);
   line-height: 24px;
+}
+
+.footerList a:hover {
+  color: rgba(156, 136, 136, 0.818);
+  transition: ease-in-out;
 }

@@ -1,19 +1,36 @@
 .sectionContainer {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 0 1rem;
+  position: relative;
   max-width: 1920px;
   min-height: 628px;
+  z-index: 5;
   font-size: var(--fs-secondary-heading);
   background: var(--background-color-linear);
 }
 .container {
+  position: relative;
   display: flex;
+  justify-content: space-around;
+  align-items: center;
   padding: 0 1rem;
   flex-direction: column;
   gap: 2.4rem;
+  z-index: 3;
 }
+.hero {
+  position: relative;
+  max-width: 1920px;
+  min-height: 628px;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-image: url("../public/Cover.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center left;
+  z-index: 0;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
 .fullStop {
   color: var(--color-primary);
 }
