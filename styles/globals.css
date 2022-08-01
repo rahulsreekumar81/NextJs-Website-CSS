@@ -108,8 +108,8 @@ ul{
   overflow: hidden;
 }
 .coloredContainer {
-  background-color: red;
+  background: var(--background-color-linear);
 }
 .header{
-  transition: background-color 0.7s ease-in;
+  transition: background-color 0.2s ease-in;
 }
