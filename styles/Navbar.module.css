@@ -14,9 +14,10 @@
   right: 0;
   overflow: hidden;
 }
+.coloredContainer {
+  background-color: red;
+}
 .logo {
-  /* width: 130px;
-  height: 28px; */
   padding-left: 0;
 }
 
@@ -24,7 +25,6 @@
 } */
 .list_container {
   display: flex;
-  /* align-items: flex-end; */
   justify-content: flex-end;
   align-items: center;
 }

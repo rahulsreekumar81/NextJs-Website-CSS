@@ -33,6 +33,7 @@
   font-size: var(--fs-secondary-heading);
   color: var(--fc-secondary-color);
   line-height: 24px;
+  padding: 1rem;
 }
 .secondaryHeading {
   font-weight: var(--fw-medium);
