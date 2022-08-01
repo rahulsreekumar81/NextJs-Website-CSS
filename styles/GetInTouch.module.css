@@ -58,6 +58,7 @@
   border-radius: 8px;
 }
 .button {
+  font-family: var(--ff-primary);
   background-color: var(--color-primary);
   border: none;
   width: 137px;
