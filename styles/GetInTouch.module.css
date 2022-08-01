@@ -39,6 +39,7 @@
 .inputContainer {
   display: flex;
   align-items: center;
+  padding: 1rem;
   justify-content: space-around;
   background-color: #ffff;
   box-shadow: 0px 163px 80px rgba(0, 0, 0, 0.04),
@@ -51,13 +52,16 @@
 .formField {
   outline: 0;
   border: 0;
+  width: 300px;
+  min-width: 40%;
+  height: 50px;
   border-radius: 8px;
 }
 .button {
   background-color: var(--color-primary);
   border: none;
-  width: 167px;
-  height: 72px;
+  width: 137px;
+  height: 42px;
   color: white;
   box-shadow: 0px 100px 80px rgba(248, 145, 71, 0.07),
     0px 64.8148px 46.8519px rgba(248, 145, 71, 0.0531481),
@@ -65,4 +69,12 @@
     0px 20px 13px rgba(248, 145, 71, 0.035),
     0px 8.14815px 6.51852px rgba(248, 145, 71, 0.0274815);
   border-radius: 4px;
+}
+
+@media (max-width: 50em) {
+  .inputContainer {
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+  }
 }

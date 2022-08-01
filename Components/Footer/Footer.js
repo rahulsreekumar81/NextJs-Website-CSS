@@ -53,12 +53,12 @@ const Footer = () => {
           <ul className={styles.footerList}>
             <li>
               <a href="#">
-                <img src="LOGO.png" alt="logo" />
+                <img src="Play-store.png" alt="logo" className={styles.logo} />
               </a>
             </li>
             <li>
               <a href="#">
-                <img src="LOGO.png" alt="logo" />
+                <img src="App-store.png" alt="logo" className={styles.logo} />
               </a>
             </li>
           </ul>
