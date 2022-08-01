@@ -15,12 +15,16 @@ const DreamBig = () => {
           head={"Free shipping"}
           content={"Enjoy Order in a hand using the freshness of groceries"}
         />
-        <div className={styles.shadow}></div>
-        <Card
-          image={"/icon1.png"}
-          head={"15 days returns"}
-          content={"Order in a handy way using the freshness of the groceries."}
-        />
+        <div className={styles.shadowContainer}>
+          <div className={styles.shadow} />
+          <Card
+            image={"/icon1.png"}
+            head={"15 days returns"}
+            content={
+              "Order in a handy way using the freshness of the groceries."
+            }
+          />
+        </div>
         <Card
           image={"/icon2.png"}
           head={"Secure checkout"}
