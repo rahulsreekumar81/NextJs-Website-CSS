@@ -40,6 +40,11 @@
   border-radius: 12px;
   transform: rotate(-3deg);
 }
+.shadowContainer:hover .shadow {
+  transform: rotate(6deg);
+  transition: all 0.3s ease-in-out;
+}
+
 @media (max-width: 878px) {
   .cards {
     flex-direction: column;

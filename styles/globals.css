@@ -29,7 +29,7 @@
     linear-gradient(0deg, #c8c8c8, #c8c8c8), #ffffff;
   /* Font Family */
 
-  --ff-primary: "Roboto", "sans-serif";
+  --ff-primary: "Poppins", "sans-serif";
   --ff-body: var(--ff-primary);
   --ff-heading: var(--ff-primary);
 
