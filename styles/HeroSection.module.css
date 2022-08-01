@@ -4,17 +4,23 @@
   min-height: 628px;
   z-index: 5;
   font-size: var(--fs-secondary-heading);
-  background: var(--background-color-linear);
 }
 .container {
-  position: relative;
+  position: absolute;
+  margin-right: 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   padding: 0 1rem;
   flex-direction: column;
   gap: 2.4rem;
   z-index: 3;
+  background: var(--color-linear);
+  max-width: 1920px;
+  min-height: 628px;
+  top: 0;
+  right: 0;
+  width: 100%;
 }
 .hero {
   position: relative;
@@ -22,6 +28,8 @@
   min-height: 628px;
   margin-top: 0;
   margin-bottom: 0;
+  margin-right: 0;
+  /* margin-left: 20%; */
   background-image: url("../public/Cover.png");
   background-repeat: no-repeat;
   background-size: cover;
