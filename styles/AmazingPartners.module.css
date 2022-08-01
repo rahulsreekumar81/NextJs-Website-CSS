@@ -31,7 +31,7 @@
   color: var(--fc-primary-color);
 }
 .logo {
-  aspect-ratio: 16/9;
+  aspect-ratio: 110/60;
   width: 11rem;
   height: 2.5rem;
 }
