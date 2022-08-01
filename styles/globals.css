@@ -78,6 +78,7 @@ ul{
  img{
   display: block;
   max-width: 100%;
+  width:200px;
 } 
 @media (min-width: 50em) {
   :root {
