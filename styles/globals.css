@@ -1,6 +1,11 @@
 :root {
   /* Colors */
   --color-primary: #fdab01;
+  --color-linear: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 0, 0.5)
+    );
   --background-color-linear: linear-gradient(
       0deg,
       rgba(255, 255, 255, 0.2),
@@ -85,4 +90,26 @@ ul{
     --fs-primary-heading: var(--fs-900);
     --fs-secondary-heading: var(--fs-800);
   }
+}
+.container {
+  height: 50px;
+  background-color: transparent;
+  display: flex;
+  z-index: 9999;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  padding: 0px 30px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+}
+.coloredContainer {
+  background-color: red;
+}
+.header{
+  transition: background-color 0.7s ease-in;
 }

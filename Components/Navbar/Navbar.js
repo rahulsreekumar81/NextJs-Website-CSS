@@ -1,14 +1,30 @@
 import Button from "../Button/Button";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import style from "../../styles/Navbar.module.css";
 import Image from "next/image";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
+  const [colorChange, setColorChange] = useState(false);
+
+  const handleColorChange = () => {
+    window.scrollY >= 80 ? setColorChange(true) : setColorChange(false);
+  };
+  useEffect(() => {
+    window.addEventListener("scroll", handleColorChange);
+
+    return () => {
+      window.removeEventListener("scroll", handleColorChange);
+    };
+  }, []);
 
   return (
-    <div className={style.container}>
-      <div className={style.hamburger} onClick={() => setOpen(!open)}>
+    <div
+      className={
+        colorChange ? " header container coloredContainer" : " header container"
+      }
+    >
+      <div className={[style.hamburger]} onClick={() => setOpen(!open)}>
         <div className={style.line} />
         <div className={style.line} />
         <div className={style.line} />

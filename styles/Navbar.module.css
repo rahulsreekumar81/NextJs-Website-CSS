@@ -14,6 +14,9 @@
   right: 0;
   overflow: hidden;
 }
+.coloredContainer {
+  background-color: red;
+}
 .logo {
   padding-left: 0;
 }
